@@ -2,7 +2,7 @@
   "name": "vue-quick-chat-3",
   "version": "0.0.0",
   "private": true,
-  "main": "./dist/vue-quick-chat-3.umd.js",
+  "main": "index.js",
   "module": "./dist/vue-quick-chat-3.es.js",
   "exports": {
     ".": {
