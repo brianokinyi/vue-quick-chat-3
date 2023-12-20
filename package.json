@@ -11,6 +11,9 @@
     },
     "./dist/style.css": "./dist/style.css"
   },
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
