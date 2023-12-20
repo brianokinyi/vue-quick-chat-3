@@ -52,7 +52,7 @@ const onImageClicked = (message: Message) => (emits("onImageClicked", message))
 				<div :style="{background: colors.message.others.bg, color: colors.message.others.text}"
 				     class="message-text">
 					<p class="message-username">{{ getParticipantById(message.participantId)?.name }}</p>
-					<p ref="messageContent">{{ message.content }}</p>
+					<p ref="messageContent" v-html="message.content"></p>
 				</div>
 			</template>
 			<div :style="{'justify-content': 'baseline'}" class="message-timestamp">
